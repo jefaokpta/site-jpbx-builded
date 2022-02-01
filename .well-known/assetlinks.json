@@ -1,0 +1,9 @@
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "br.com.jpbx.links",
+    "sha256_cert_fingerprints":
+      ["D8:11:E6:4B:65:39:8A:47:EC:AF:95:C5:E3:78:A4:2F:04:A0:BE:14:A7:1D:01:6A:28:3B:8C:E5:0D:74:74:73"]
+   }
+}
