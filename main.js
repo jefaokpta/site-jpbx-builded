@@ -264,8 +264,8 @@ var ServerService = /** @class */ (function () {
     function ServerService(http) {
         this.http = http;
         // private url = 'http://localhost:8080/';
-        //private url = 'https://sip.jpbx.com.br:8443/';
-        this.url = 'https://email-site-jpbx.herokuapp.com/';
+        // private url = 'https://email-site-jpbx.herokuapp.com/';
+        this.url = 'https://email-jpbx.fly.dev/';
     }
     ServerService.prototype.postServer = function (page, data) {
         return this.http.post(this.url + page, data, {
