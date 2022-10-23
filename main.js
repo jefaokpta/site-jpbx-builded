@@ -77,7 +77,8 @@ var AppComponent = /** @class */ (function () {
         this.formulario = this.fb.group({
             name: [null, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
             email: [null, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].email]],
-            message: [null, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]
+            message: [null, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+            host: ['jpbx.com.br']
         });
     };
     AppComponent.prototype.send = function () {
